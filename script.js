@@ -1,26 +1,24 @@
-function cls(){
-    var div,p;
-    div = document.getElementById('conteudo').childNodes;
-    p = document.getElementById('p');
-    p.innerHTML = div;
-    console.log(div[1]);
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
+var div, n1,n2;
+div = document.getElementById('conteudo');
+div.addEventListener('mouseenter', entrar);
+div.addEventListener('mouseout', sair);
+div.addEventListener('click', cli);
+
+
+function entrar(){
+    document.getElementById('conteudo').style.backgroundColor = 'gray';
+}
+function sair(){
+    document.getElementById('conteudo').style.backgroundColor = 'white';
+
+}
+function cli(){
+    document.getElementById('conteudo').style.backgroundColor = 'red';
+}
+
+//////////////////////
 var div,n1,addtag = {}
 addtag.adc = function(nome){
 
